@@ -62,7 +62,7 @@ module.exports = {
                 secure: false
             }
         },
-        contentBase: "./public",
+        contentBase: "./build",
         historyApiFallback: true, // no redirect
         inline: true, // refresh in time
         hot: true // HotModuleReplacementPlugin
