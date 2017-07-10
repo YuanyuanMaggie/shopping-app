@@ -58,7 +58,8 @@ module.exports = {
     devServer: {
         proxy:{
             '/api': {
-                target: 'http://localhost:3000',
+                target: 'https://mockapi-maggie.herokuapp.com',
+                changeOrigin: true,
                 secure: false
             }
         },
