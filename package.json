@@ -1,5 +1,5 @@
 {
-  "name": "self-yelp-app",
+  "name": "self-shopping-app",
   "version": "1.0.0",
   "description": "this is the basic app to setup react development env",
   "main": "index.js",
@@ -49,6 +49,7 @@
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "react-swipe": "^5.0.8",
     "redux": "^3.7.0",
     "swipe-js-iso": "^2.0.3",
