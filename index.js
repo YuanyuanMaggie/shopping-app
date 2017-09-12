@@ -1,0 +1,14 @@
+var express = require('express');
+const path = require('path');
+var app = express();
+
+app.use(express.static(__dirname + '/build'));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/build/index.html'));
+})
+
+const port = process.env.PORT || 5000;
+app.listen(port, function () {
+    console.log(`Password generator listening on ${port}`);
+});
